@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <form>
+        <label for="fullName">Full Name:</label>
+        <input id="fullName" type="text" placeholder="Enter your name??" required maxlength="10"> <br> <br>
+
+        <label for="age">Age:</label>
+        <input id="age" type="number" placeholder="Enter your age?" required> <br> <br>
+
+         <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email?" required> <br> <br>
+
+
+        <label for="dob">Date of Birth</label>
+        <input id="dob" type="date" placeholder="dob" required> <br> <br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" checked> <label for="male">Male</label> <input type="radio"
+            id="female" name="gender"> <label for="female">Female</label>
+        <br> <br>
+
+        <!-- <textarea rows="10" cols="10"></textarea> -->
+
+        <p>Please select your completed topics:
+            <br />
+            <input type="checkbox" name="service" checked /> HTML
+            <input type="checkbox" name="service"  /> CSS
+            <input type="checkbox" name="service" /> Javascript
+        </p>
+
+        <input type="file" accept=".png, .jpeg, .pdf">
+
+        <input type="submit">
+    </form>
+
+
+</body>
+
+</html>
