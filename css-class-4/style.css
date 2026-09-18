@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    /* text-shadow: 1: left-right control 2: top-bottom control 3: blur level control 4: color control  */
+    text-shadow: 2px 2px 5px blue;
+}
+
+h1:first-letter{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+
+p::first-line{
+    color: red;
+}
+
+h2{
+    text-decoration: line-through;
+}
