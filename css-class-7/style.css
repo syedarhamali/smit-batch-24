@@ -1,0 +1,29 @@
+
+h1{
+    border: 5px solid black;
+    /* padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-top: 0px; */
+    padding: 20px 0px 50px 0px;
+    border-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/sunset-wallpaper-free-image.jpeg?w=2210&quality=70') 11 11 11 11 stretch;
+}
+
+/* padding: 20px // all four sides
+padding: 10px 5px // first one for top and bottom second one for left and right  */
+/* padding: 20px 0px 50px 0px; top right bottom and left , this is how it works */
+
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+/* div img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-size: cover;
+} */
