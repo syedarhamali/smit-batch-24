@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+
+.parent{
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.child{
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+}
