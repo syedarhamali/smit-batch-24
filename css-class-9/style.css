@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.max-container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: blue;
+}
+.menu-with-icon{
+    display: flex;
+}
+
+.menu-with-icon svg{
+    height: 12px;
+    width: 12px;
+    margin-top: 6px;
+    margin-left: 6px;
+    transform: rotate(280deg);
+}
+.nav-button button {
+    background-color: #151515;
+    color: white;
+    padding: 12px 32px;
+    font-size: 16px;
+    border: 1px solid  rgb(41, 41, 41);
+    border-radius: 5px;
+
+}
