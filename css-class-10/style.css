@@ -1,0 +1,31 @@
+
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+   gap: 10px;
+}
+
+
+.child-1 , .child-2 , .child-3{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    background-color: lightblue;
+}
+
+.child-1{
+    flex-shrink: 0;
+    /* flex-grow: 1; */
+    /* order: 1; */
+}
+
+.child-2{
+    flex-shrink: 1;
+    /* flex-grow: 4; */
+    /* order: 3; */
+}
