@@ -1,0 +1,50 @@
+body {
+    height: 3000px;
+}
+
+
+.container {
+    background-color: blue;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    gap: 10px;
+}
+
+
+
+
+.child {
+    height: 300px;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.child-2 {
+    position: fixed;
+    top: 600px;
+    bottom: 0px;
+}
+
+.child-3 {
+    /* position: fixed; */
+    bottom: 0px;
+}
+
+
+/* .child-2{
+    height: 56px;
+    width: 56px;
+    background-color: #4d93f1;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+} */
