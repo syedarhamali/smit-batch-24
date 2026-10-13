@@ -1,0 +1,21 @@
+body{
+    min-height: 400px;
+    background-color: black;
+    color: white;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/068/821/745/small/serene-landscape-featuring-a-solitary-tree-by-a-reflective-lake-with-a-majestic-mountain-backdrop-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    background-color: aqua;
+    z-index: 11;
+}

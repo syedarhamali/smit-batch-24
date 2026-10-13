@@ -1,0 +1,61 @@
+/* .order-list{
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+
+.order-list li::first-letter{
+    font-size: 40px;
+}
+
+.order-list li{
+    margin-top: 20px;
+}
+
+.unorder-list{
+} */
+
+.user-details{
+    width: 500px;
+    height: 140px;
+}
+
+.user-details , tr , th, td{
+    border: 1px solid black;
+    border-spacing: 0px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.user-details tr:nth-child(even){
+    background-color: pink;
+}
+
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border: 1px solid grey;
+    padding: 5px 3px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.name-input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.profile-svg{
+    color: grey;
+    height: 14px;
+    width: 14px;
+}
+
+
+.input-box:focus-within{
+    border: 1px solid #08f;
+}
