@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./Gilroy-FREE/Gilroy-Light.otf');
+}
+
+body{
+    font-family: 'Gilroy';
+    margin: 0px;
+}
+
+
+.parallex{
+    min-height: 500px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/081/472/121/small/a-peaceful-woodland-pathway-winding-through-a-dense-forest-during-peak-autumn-season-with-golden-yellow-and-orange-foliage-falling-down-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallex-2{
+    min-height: 500px;
+    background-image: url("https://i.pinimg.com/736x/15/61/58/1561587aef2154176057c566903f1abe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
