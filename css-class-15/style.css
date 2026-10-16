@@ -1,0 +1,34 @@
+:root{
+    --primary-bg-color: blue;
+    --primary-text-color: red;
+    --primary-heading-color: yellow;
+}
+
+body{
+    background-color: grey;
+}
+
+h1{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+h2{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+h3{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+h4{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+p{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-heading-color);
+}
