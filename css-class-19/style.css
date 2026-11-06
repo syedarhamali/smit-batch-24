@@ -1,0 +1,16 @@
+.max-container{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 , 400px);
+    grid-template-rows: repeat(2 , 300px);
+    grid-gap: 10px
+
+}
+
+.container div{
+    border: 1px solid black;
+}
